@@ -1,3 +1,7 @@
+# Copyright 2019, University of Illinois at Chicago and Oregon Health & Science University
+# This file is part of the deduplicator project.
+# See the ReadMe.txt file for licensing information.
+
 import xml.etree.ElementTree as ET
 import unidecode
 
