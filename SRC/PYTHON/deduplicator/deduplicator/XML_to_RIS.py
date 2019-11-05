@@ -1,33 +1,13 @@
+# Copyright 2019, University of Illinois at Chicago and Oregon Health & Science University
+# This file is part of the deduplicator project.
+# See the ReadMe.txt file for licensing information.
+
+
+
 import subprocess
 import os
 import tempfile
 
-
-
-# # def xml_to_ris_using_bibutils(xml_file):
-# 	"""
-# 	Converts a .xml file to a .ris file
-# 	"""	
-	
-# 	# p1 = subprocess.Popen(['med2xml', xml_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-# 	# xml_file_path = os.path.split(xml_file)[0]
-# 	# xml_file_name  = os.path.split(xml_file)[1]
-# 	# ris_file_name = xml_file_name.rsplit('.', 1)[0]+'.ris'
-# 	# if len(xml_file_path)!=0:
-# 	# 	xml_to_ris_file = xml_file_path+'/'+ris_file_name
-# 	# else:
-# 	# 	xml_to_ris_file = ris_file_name
-
-		
-# 	# p2 = subprocess.Popen('xml2ris', stdin=p1.stdout, stdout=xrf, stderr=subprocess.PIPE)
-# 	# p1.wait()
-# 	# p1.stdout.close()
-# 	# p2.wait()
-
-# 	# xrf.close()
-	
-
-# 	# return xml_to_ris_file
 
 def xml_to_ris_using_bibutils(xml_file):
 	"""
