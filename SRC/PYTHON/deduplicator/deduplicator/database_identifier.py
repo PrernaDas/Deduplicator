@@ -1,3 +1,7 @@
+# Copyright 2019, University of Illinois at Chicago and Oregon Health & Science University
+# This file is part of the deduplicator project.
+# See the ReadMe.txt file for licensing information.
+
 def add_database_identifier(list_of_dicts):
 	"""
 	ID is source database: unique identifier for that database/accession number
