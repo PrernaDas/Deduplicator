@@ -1,3 +1,7 @@
+# Copyright 2019, University of Illinois at Chicago and Oregon Health & Science University
+# This file is part of the deduplicator project.
+# See the ReadMe.txt file for licensing information.
+
 def score_dictionary(dx):
 	PUBMED_SCORE = 1000
 	EMBASE_SCORE = 0
